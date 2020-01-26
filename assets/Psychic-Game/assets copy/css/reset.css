@@ -1,0 +1,17 @@
+/* rest stylesheet */
+
+html, body, div, h3, ul, img, footer {
+    margin: auto;
+    padding:0;
+    border: 0;
+}
+
+body {
+    line-height: 2;
+}
+ul {
+    list-style: none;
+}
+footer {
+    margin: auto;
+}

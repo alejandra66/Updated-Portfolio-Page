@@ -1,0 +1,77 @@
+body { 
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.container {
+    height: 400px; 
+    width: 1000px;
+    background: royalblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 20px;
+    box-shadow: 0 0 8px 3px lightgray;   
+}
+#timer { 
+    color: white;
+    margin-top: -10px;
+}
+.title { 
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+.question { 
+    padding: 40px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+}
+.option { 
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: darkblue;
+    margin: 10px 0 10px 10px;
+    color: white;
+    border-radius: 20px;
+}
+.option:hover { 
+    background: steelblue;
+    color: white; 
+}
+.next-btn {
+    border: none;
+    outline: none;
+    background: darkblue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+    margin-top: 40px;
+}
+.next-btn:hover {
+    background: steelblue;
+    color: white;
+}
+.result { 
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+.options input:checked .options { 
+    background: cornflowerblue;
+    color: white;
+}
+
+
+
+
+

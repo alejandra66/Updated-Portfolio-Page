@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychic Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://use.fontawesome.com/f4a1380ac2.js"></script>
+
+</head>
+
+<body>
+
+ <!-- Header and image starts -->
+<header>
+    <img src="assets/images/psychic.jpg">
+</header>
+<!-- Header ends -->
+
+<!-- Contanier starts -->
+<div class="contanier">
+    <div class="box">
+        <h3>
+            Guess what letter I'm Thinking of
+        </h3>
+        <br>
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="What is your Answer?">
+        </div>
+    </div>
+    <br>
+    <div class="contanier2">
+        <div class="text">
+            <ul>
+                <li class="text-item">
+                    Wins: 
+                    <p id="wins">0</p>
+                </li>
+                <li class="text-item">
+                    Losses: 
+                    <p id="losses">0</p>
+                </li>
+                <li class="text-item">
+                    Guesses Left: 
+                    <p id="guessesLeft">9</p>
+                </li>
+                <li class="text-item">
+                    Your Guesses So Far:
+                    <p id="guessSoFar"></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Contanier ends -->
+<script  type="text/javascript" src="assets/javascript/game.js"></script>
+
+<footer class="footer"><button type="button" class="btn btn-secondary btn-lg btn-block" value="Refresh page" onClick="window.location.reload();"">Play again!</button></footer>
+</body>
+</html>
